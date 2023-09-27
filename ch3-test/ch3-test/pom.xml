@@ -61,6 +61,11 @@
         <dependency>
             <groupId>nz.net.ultraq.thymeleaf</groupId>
             <artifactId>thymeleaf-layout-dialect</artifactId>
+<!--            버전을 안 적으면 디폴트값으로 3.0.0으로 됨-->
+<!--            교재 코드는 스프링부트 버전이 2.5.2라서 타임리프도 2.5.1이 적용되지만,-->
+<!--            현재 코드는 스프링부트 버전이 2.7.16이라서 타임리프 버전이 2.5.1이면 적용이 안되는 문제 발생-->
+<!--            그래서 버전 표시를 하지않고, 디폴트값으로 타임리프 버전을 3.0.0으로 설정해야 적용이 됨-->
+<!--            <version>2.5.1</version>-->
         </dependency>
 
     </dependencies>

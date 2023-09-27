@@ -7,13 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ch3-test" />
+        <module name="ch4-test3" />
+        <module name="ch4-test2" />
         <module name="ch2-test-homework" />
         <module name="ch2-test" />
-        <module name="ch3-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ch1-2-test" target="11" />
+      <module name="ch4-test" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +25,9 @@
       <module name="ch2-test" options="-parameters" />
       <module name="ch2-test-homework" options="-parameters" />
       <module name="ch3-test" options="-parameters" />
+      <module name="ch4-test" options="-parameters" />
+      <module name="ch4-test2" options="-parameters" />
+      <module name="ch4-test3" options="-parameters" />
     </option>
   </component>
 </project>

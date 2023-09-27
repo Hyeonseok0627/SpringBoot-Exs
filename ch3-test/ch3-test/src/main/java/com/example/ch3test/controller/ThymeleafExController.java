@@ -16,7 +16,7 @@ public class ThymeleafExController {
 
     @GetMapping(value = "/ex01")
     public String thymeleafExample01(Model model){
-        model.addAttribute("data", "서버 사이드 렌더링 타임리프 예제 입니다.");
+        model.addAttribute("data", "서버 사이드 렌더링 타임리프 예제 입니다."); // (key, value)
         return "thymeleafEx/thymeleafEx01";
     }
 
@@ -87,6 +87,11 @@ public class ThymeleafExController {
     @GetMapping(value = "/ex07")
     public String thymeleafExample07(){
         return "thymeleafEx/thymeleafEx07";
+    }
+
+    @GetMapping(value = "/ex08")
+    public String thymeleafExample08(){
+        return "thymeleafEx_lhs0927/thymeleafEx08";
     }
 
 }

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/ch2-test/ch2-test-homework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch2-test/ch2-test-homework/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch2-test/ch2-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch2-test/ch2-test/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch3-test/ch3-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch3-test/ch3-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch4-test/ch4-test2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch4-test/ch4-test3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch4-test2/src/main/java" charset="UTF-8" />
   </component>
 </project>
