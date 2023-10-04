@@ -39,3 +39,4 @@ out/
 ### test ###
 /build.gradle
 /.idea/
+!/.idea/

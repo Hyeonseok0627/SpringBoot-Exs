@@ -32,13 +32,17 @@ class MemberControllerTest {
     @Autowired
     PasswordEncoder passwordEncoder;
 
+    // 엔티티클래스인 Member형인 createMember 메소드 생성
     public Member createMember(String email, String password){
         MemberFormDto memberFormDto = new MemberFormDto();
         memberFormDto.setEmail(email);
         memberFormDto.setName("홍길동");
         memberFormDto.setAddress("서울시 마포구 합정동");
         memberFormDto.setPassword(password);
+        // 엔티티 클래스인 Member 클래스 내부로 이동함.
+        // dto 의 박스를 해당 엔티티 클래스 형으로 변환. 작업의 편의성을 위해 한 것.
         Member member = Member.createMember(memberFormDto, passwordEncoder);
+        // 동네 2번에 외주줘서, 실제 DB에 반영하는 로직.
         return memberService.saveMember(member);
     }
 
